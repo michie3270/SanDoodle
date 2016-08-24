@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--touch size-->
+    <dimen name="one_finger">10dp</dimen>
+    <integer name="size1">10</integer>
+    <dimen name="two_fingers">20dp</dimen>
+    <integer name="size2">20</integer>
+    <dimen name="three_fingesr">30dp</dimen>
+    <integer name="size3">30</integer>
+</resources>

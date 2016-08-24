@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:dither="true"
+    android:shape="oval" >
+
+    <size
+        android:height="@dimen/three_fingesr"
+        android:width="@dimen/three_fingesr" />
+
+    <solid android:color="#FF666666" />
+
+</shape>

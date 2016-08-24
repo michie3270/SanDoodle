@@ -1,0 +1,72 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle" >
+            <stroke
+                android:width="4dp"
+                android:color="#FF999999" />
+            <solid android:color="#00000000" />
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <stroke
+                android:width="4dp"
+                android:color="#FF999999" />
+            <solid android:color="#00000000" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item>
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/pink"
+        android:tileMode="repeat"/>
+    </item>
+    <item>
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/blue"
+        android:tileMode="repeat"/>
+    </item>
+    <item>
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/mint"
+        android:tileMode="repeat"/>
+    </item>
+    <item>
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/brown"
+        android:tileMode="repeat"/>
+    </item>
+    <item>
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/orange"
+        android:tileMode="repeat"/>
+    </item>
+    <item>
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/purple"
+        android:tileMode="repeat"/>
+    </item>
+    <item>
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/sand"
+        android:tileMode="repeat"/>
+    </item>
+    <item>
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/teal"
+        android:tileMode="repeat"/>
+    </item>
+</layer-list>
