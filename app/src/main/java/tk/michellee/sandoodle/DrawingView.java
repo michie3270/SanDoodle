@@ -19,7 +19,8 @@ import android.widget.ImageButton;
 
 /**
  * Created by michelle on 8/14/16.
- * A test project to learn how to make a drawing app on Android Studio
+ * A simple drawing app project that users can choose from a variety of "sand-textured" color.
+ * Users can save, create new file, adjust brush size, and erase.
  * More features will be added in the future, including a menu screen and settings
  */
 public class DrawingView extends View {
@@ -116,7 +117,7 @@ public class DrawingView extends View {
             shader = new BitmapShader(sandColor,
                     Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
         } else if (paintColor == 0xff660000) {
-            sandColor = BitmapFactory.decodeResource(getResources(), R.drawable.brown);
+            sandColor = BitmapFactory.decodeResource(getResources(), R.drawable.offwhite);
             shader = new BitmapShader(sandColor,
                     Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
         } else if (paintColor == 0xffff6600) {
